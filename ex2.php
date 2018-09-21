@@ -5,6 +5,7 @@ $u = array('Hola','adios');
 $tipus_de_i = gettype( $i );
 $tipus_de_o = gettype( $o );
 $tipus_de_u = gettype( $u );
+$g = gettype ( $tipus_de_i );
 echo "La variable \$i 
       conté el valor $i 
       i és del tipus $tipus_de_i<br>";
@@ -14,4 +15,5 @@ echo "La variable \$o
 echo "La variable \$u
       conté el valor $u 
       i és del tipus $tipus_de_u<br>";
+echo "$g";
 ?>
